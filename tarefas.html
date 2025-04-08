@@ -6,44 +6,113 @@
 </head>
 
 <body>
-    <header>
-        <form>
+    <h1>Formulário de Tarefas</h1>
+    <hr>
+    <form>
+        <section>
             <label>
-                Informe a tarefa: <input type="text" name="nometarefa">
+                <h3>Informe a tarefa:</h3> <input type="text" name="nometarefa">
             </label>
-            <br>
             <br>
             <hr>
-            <br>
             <label>
-                Descreva a tarefa: <textarea name="decricaotarefa"></textarea>
+                <h3>Descreva a tarefa:</h3> <textarea name="decricaotarefa"></textarea>
             </label>
-            <br>
-            <br>
-            <hr>
-            <br>
+        </section>
+        <br>
+        <hr>
+        <section>
+            <h3>Datas</h3>
             <label>
-                Data de início: <input type="date">
+                Data de início: <input type="date" name="datainicio">
             </label>
             <label>
-                Data de conclusão: <input type="date">
+                Data de conclusão: <input type="date" name="dataconclusao">
             </label>
-            <br>
-            <br>
-            <hr>
-            <br>
             <label>
-                Informe o horário limite de conclusão: <input type="time">
+                Horário limite de conclusão: <input type="time" name="horariolimite">
             </label>
-            <br>
-            <br>
-            <hr>
-            <br>
+        </section>
+        <br>
+        <hr>
+        <section>
+            <h3>Tempo estimado para execução da tarefa:</h3>
+            <ol>
+                <li>
+                    <input type="radio" name="tempoestimado" id="tempoestimado1">
+                    <label for="tempoestimado1">até 1 dia</label>
+                </li>
+                <li>
+                    <input type="radio" name="tempoestimado" id="tempoestimado2">
+                    <label for="tempoestimado2">até 2 dias</label>
+                </li>
+                <li>
+                    <input type="radio" name="tempoestimado" id="tempoestimado3">
+                    <label for="tempoestimado3">até 5 dias</label>
+                </li>
+                <li>
+                    <input type="radio" name="tempoestimado" id="tempoestimado4">
+                    <label for="tempoestimado4">até 1 semana</label>
+                </li>
+                <li>
+                    <input type="radio" name="tempoestimado" id="tempoestimado5">
+                    <label for="tempoestimado5">mais de 1 semana</label>
+                </li>
+            </ol>
+        </section>
+        <hr>
+        <section>
+            <h3>Etapas concluídas</h3>
+            <ul>
+                <li>
+                    <label><input type="checkbox" name="etapa" value="planejamento">Planejamento</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" name="etapa" value="execucao">Execução</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" name="etapa" value="revisao">Revisão</label>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h3>Prioridade</h3>
             <label>
-
+                Qual o nível de prioridade:
             </label>
-        </form>
-    </header>
+            <select name="prioridade">
+                <option value="alta">Alta</option>
+                <option value="media">Média</option>
+                <option value="baixa">Baixa</option>
+            </select>
+        </section>
+        <br>
+        <hr>
+        <section>
+            <h3>Dificuldade</h3>
+            <label>
+                Qual o nível de dificuldade (0 a 10):
+                <input type="range" name="dificuldade" min="0" max="10" step="1">
+            </label>
+        </section>
+        <br>
+        <hr>
+        <section>
+            <h3>Arquivos importantes:</h3>
+            <form>
+                <br>
+                <input type="file" name="arquivos" accept="multiple">
+                <br>
+                <hr>
+        </section>
+        <section>
+            <h3>Enviar formulário:</h3>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar">
+        </section>
+    </form>
+    <hr>
 </body>
 
 </html>
