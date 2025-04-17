@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #F20068;
+    background-color: #F29BAB;
     color: #222;
 }
 
@@ -35,7 +35,7 @@ p {
 }
 
 a {
-    color: #0066cc;
+    color: #038C73;
     font-weight: bold;
 }
 
@@ -65,7 +65,22 @@ dt {
 }
 
 table {
-    background-color: #20C0B4;
     color: #038C73;
     font-size: 20px;
+}
+
+.caixa-habilidades {
+    background-color: #555;
+    border: 2px;
+    height: 300px;
+    margin: 30px;
+    overflow: auto;
+}
+
+.secao-onibus {
+    background-color: #555;
+}
+
+.secao-onibus td {
+    background-color: #555;
 }
