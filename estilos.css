@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F20068;
+    color: #222;
+}
+
+hr {
+    background-color: #20C0B4;
+    height: 4px;
+    border: none;
+    margin: 20px 0;
+}
+
+h1 {
+    color: #20C0B4;
+    font-size: 36px;
+}
+
+h2 {
+    color: #20C0B4;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+h3 {
+    color: #20C0B4;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+a {
+    color: #0066cc;
+    font-weight: bold;
+}
+
+ol {
+    color: #038C73;
+    font-size: 20px;
+}
+
+li {
+    color: #038C73;
+    font-size: 20px;
+}
+
+ul {
+    color: #038C73;
+    font-size: 20px;
+}
+
+dl {
+    color: #038C73;
+    font-size: 20px;
+}
+
+dt {
+    color: #038C73;
+    font-size: 20px;
+}
+
+table {
+    background-color: #20C0B4;
+    color: #038C73;
+    font-size: 20px;
+}
