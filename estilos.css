@@ -84,3 +84,9 @@ table {
 .secao-onibus td {
     background-color: #555;
 }
+
+.colunas {
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
